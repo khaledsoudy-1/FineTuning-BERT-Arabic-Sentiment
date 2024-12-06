@@ -10,6 +10,25 @@ Khaled Soudy
 
 Sentiment analysis is a crucial task in Natural Language Processing (NLP) that aims to determine the emotional tone behind a piece of text, such as positive 😄, negative 😠, or neutral 😐. BERT (Bidirectional Encoder Representations from Transformers) is a state-of-the-art language model that has achieved remarkable success in various NLP tasks, including sentiment analysis. We'll fine-tune a pre-trained BERT model using an Arabic reviews dataset to build a powerful sentiment classifier for this specific domain.
 
+### What’s the Task?  
+We’re working with the **[Arabic 100k Reviews](https://www.kaggle.com/datasets/abedkhooli/arabic-100k-reviews)** dataset—a compilation of 100k (well, 99,999) Arabic reviews from hotels, books, movies, products, and airlines. Each review falls into one of three sentiment categories:  
+1️⃣ **Positive** 🌟  
+2️⃣ **Negative** 😠  
+3️⃣ **Mixed** 🤔  
+
+### 📂 **About the Dataset**:  
+- **Content**: Each review includes a sentiment label (`Positive`, `Negative`, or `Mixed`) and the review text, **separated by tabs** (TSV format).  
+- **Processing**: Reviews were cleaned of diacritics and non-Arabic characters, ensuring high-quality data.  
+- **Balanced Classes**: No duplicate reviews, making it a robust dataset for classification tasks.  
+
+### Why Fine-Tune BERT?  
+BERT has a deep contextual understanding of text, but by fine-tuning it with our dataset, we’ll train it to recognize sentiment in Arabic reviews with precision.  
+
+### What to Expect?  
+1️⃣ **Load and explore the dataset** to understand what we’re working with.  
+2️⃣ **Prepare BERT for sentiment analysis**.  
+3️⃣ **Train and evaluate** our custom sentiment classifier.  
+
 ## Project Structure 📂
 
 The project is organized as follows:

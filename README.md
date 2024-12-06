@@ -60,6 +60,6 @@ The project is organized as follows:
 
 This project equips you with the knowledge and tools to perform sentiment analysis on Arabic text using fine-tuned BERT in Google Colab. By following the steps in the notebook, you can build a powerful sentiment classifier for your specific needs.
 
-## About the Author 👨‍💻
+## License 📜
 
-This fine-tuning project was created by **Khaled Soudy**. Check out more of my work on [GitHub](https://github.com/khaledsoudy-1)! 😊
+This project is licensed under the MIT License.

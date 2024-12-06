@@ -2,6 +2,11 @@
 
 This project provides a comprehensive guide to fine-tuning BERT for sentiment analysis on Arabic reviews using Google Colab. We'll leverage the power of BERT and Google Colab's GPU capabilities to build a custom sentiment classifier, specifically tailored for Arabic text.
 
+## Hugging Face Model 📦 
+
+You can access and use the fine-tuned model for sentiment analysis directly from Hugging Face: [**Arabic Sentiment BERT Model**](https://huggingface.co/khaledsoudy/arabic-sentiment-bert-model) 
+
+
 ## Author 🧑‍💻
 
 Khaled Soudy
